@@ -1,0 +1,44 @@
+{
+  "id": "01820b5ad48c46cfafbc51db8475a459",
+  "ability": "MEA",
+  "subcategory": "MEA-SDI-MIST",
+  "num_turns": 3,
+  "turns": [
+    {
+      "round": 1,
+      "video": "media/multi_turn/01820b5ad48c46cfafbc51db8475a459/round_1.mp4"
+    },
+    {
+      "round": 2,
+      "video": "media/multi_turn/01820b5ad48c46cfafbc51db8475a459/round_2.mp4"
+    },
+    {
+      "round": 3,
+      "video": "media/multi_turn/01820b5ad48c46cfafbc51db8475a459/round_3.mp4"
+    }
+  ],
+  "key_points": [
+    {
+      "tier": 0,
+      "point": "The response is in English, consistent with the user's language."
+    },
+    {
+      "tier": 1,
+      "point": "The response correctly identifies the current round's new interlocutor (the female vendor in the burgundy apron) and addresses her question about recommending color tones or schemes to evoke an ancient atmosphere for prehistoric creature illustrations, rather than repeating content from previous rounds regarding biological features or specific species color speculation."
+    },
+    {
+      "tier": 2,
+      "point": "The response provides specific tone suggestions, such as earth tones, low saturation, or warm tones, rather than merely offering vague advice like \"choose appropriate colors\"."
+    },
+    {
+      "tier": 2,
+      "point": "The response focuses on overall atmospheric creation (e.g., techniques involving haze, gradients, or avoiding overly bright colors), distinguishing it from the previous round's discussion on specific exoskeleton coloring."
+    },
+    {
+      "tier": 3,
+      "point": "The response does not fabricate information not present in the video (e.g., it does not claim to see specific colors in the user's artwork), and its suggestions are based on general art knowledge."
+    }
+  ],
+  "_example_clip": "examples/clips/MEA-SDI-MIST.mp4",
+  "_example_clip_note": "final turn (3 of 3)"
+}

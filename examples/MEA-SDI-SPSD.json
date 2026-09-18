@@ -1,0 +1,29 @@
+{
+  "id": "019a405f6af64dde81a4cd5f98fdec04",
+  "ability": "MEA",
+  "subcategory": "MEA-SDI-SPSD",
+  "video": "media/single_turn/019a405f6af64dde81a4cd5f98fdec04.mp4",
+  "key_points": [
+    {
+      "tier": 0,
+      "point": "The response is in Chinese"
+    },
+    {
+      "tier": 1,
+      "point": "The response correctly addresses Character A's question about the post-workout stretching sequence (especially after leg training), answering only that question and not responding to Character B's casual chat with the friend outside the car about meeting at a noodle restaurant."
+    },
+    {
+      "tier": 2,
+      "point": "The response provides a clear stretching sequence (e.g., from large muscle groups to small ones, or ordered by specific areas such as posterior glutes/legs -> anterior thighs -> inner thighs -> calves), rather than speaking in generalities."
+    },
+    {
+      "tier": 2,
+      "point": "The response explains the rationale or basis for this sequencing (e.g., prioritizing large muscle groups, metabolic/blood return, tension release principles), addressing the user's follow-up question."
+    },
+    {
+      "tier": 3,
+      "point": "The response includes practical execution details, such as hold duration for each area (e.g., 20-30 seconds), static stretching, and safety tips like avoiding bouncing or stretching to the point of pain."
+    }
+  ],
+  "_example_clip": "examples/clips/MEA-SDI-SPSD.mp4"
+}

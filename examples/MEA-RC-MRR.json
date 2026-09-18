@@ -1,0 +1,60 @@
+{
+  "id": "006392af9bcc4aa7bd54094e6473789a",
+  "ability": "MEA",
+  "subcategory": "MEA-RC-MRR",
+  "num_turns": 7,
+  "turns": [
+    {
+      "round": 1,
+      "video": "media/multi_turn/006392af9bcc4aa7bd54094e6473789a/round_1.mp4"
+    },
+    {
+      "round": 2,
+      "video": "media/multi_turn/006392af9bcc4aa7bd54094e6473789a/round_2.mp4"
+    },
+    {
+      "round": 3,
+      "video": "media/multi_turn/006392af9bcc4aa7bd54094e6473789a/round_3.mp4"
+    },
+    {
+      "round": 4,
+      "video": "media/multi_turn/006392af9bcc4aa7bd54094e6473789a/round_4.mp4"
+    },
+    {
+      "round": 5,
+      "video": "media/multi_turn/006392af9bcc4aa7bd54094e6473789a/round_5.mp4"
+    },
+    {
+      "round": 6,
+      "video": "media/multi_turn/006392af9bcc4aa7bd54094e6473789a/round_6.mp4"
+    },
+    {
+      "round": 7,
+      "video": "media/multi_turn/006392af9bcc4aa7bd54094e6473789a/round_7.mp4"
+    }
+  ],
+  "key_points": [
+    {
+      "tier": 0,
+      "point": "The response is in English"
+    },
+    {
+      "tier": 1,
+      "point": "The response correctly recalls and states that the color of the cylindrical vase previously shown by the user is terra-cotta orange (synonymous expressions such as terracotta orange, clay orange, or warm orange-red are acceptable)"
+    },
+    {
+      "tier": 1,
+      "point": "The response correctly aligns the user's description 'cylindrical vase I showed you a little while ago' to the vase shown earlier, answering in a recalling tone rather than claiming it is still visible in the current frame"
+    },
+    {
+      "tier": 2,
+      "point": "The response is natural, fluent, concise, and appropriate, matching the tone of casual chat between friends"
+    },
+    {
+      "tier": 3,
+      "point": "The response provides an accurate supplementary description of the terra-cotta orange color (e.g., a reddish-brown clay tone), demonstrating detailed recollection of the object's appearance"
+    }
+  ],
+  "_example_clip": "examples/clips/MEA-RC-MRR.mp4",
+  "_example_clip_note": "final turn (7 of 7)"
+}

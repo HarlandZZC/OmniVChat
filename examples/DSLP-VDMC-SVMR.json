@@ -1,0 +1,25 @@
+{
+  "id": "000dbfebde164164bfa8661524e6ad50",
+  "ability": "DSLP",
+  "subcategory": "DSLP-VDMC-SVMR",
+  "video": "media/single_turn/000dbfebde164164bfa8661524e6ad50.mp4",
+  "key_points": [
+    {
+      "tier": 0,
+      "point": "The response is in English, consistent with the language of the user's question"
+    },
+    {
+      "tier": 1,
+      "point": "The response explicitly gives the directional answer as left (on your left / left side), correctly understanding that in rear-camera mode the left side of the frame corresponds to the user's left."
+    },
+    {
+      "tier": 2,
+      "point": "The response is concise and natural, matching the conversational style of a voice assistant in a driving scenario without lengthy explanations."
+    },
+    {
+      "tier": 3,
+      "point": "The response references the feature of the object indicated by the user (e.g., beige house), confirming that it is answering about the building the user asked about."
+    }
+  ],
+  "_example_clip": "examples/clips/DSLP-VDMC-SVMR.mp4"
+}

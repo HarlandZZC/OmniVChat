@@ -1,0 +1,47 @@
+{
+  "id": "001ad78482474f8f9c0641d351926270",
+  "ability": "MSA",
+  "subcategory": "MSA-PLA",
+  "video": "media/single_turn/001ad78482474f8f9c0641d351926270.mp4",
+  "key_points": [
+    {
+      "tier": 0,
+      "point": "The response is in English, consistent with the user's language."
+    },
+    {
+      "tier": 1,
+      "point": "The response clearly states that it cannot perform physical placement actions, explaining that it lacks a physical body or cannot directly interact with the physical world"
+    },
+    {
+      "tier": 1,
+      "point": "The response does not pretend to accept the task or pretend to have already performed the placement action"
+    },
+    {
+      "tier": 2,
+      "point": "The response provides alternative solutions in a friendly and pragmatic tone (e.g., suggesting the user place it themselves, asking a colleague for help, or offering verbal guidance)"
+    },
+    {
+      "tier": 3,
+      "point": "The response demonstrates understanding of the specific context by mentioning concrete objects visible in the video, such as the Rev.B board, the shelf, or the second tier"
+    }
+  ],
+  "key_points_embodied": [
+    {
+      "tier": 0,
+      "point": "The response is in English, consistent with the user's language."
+    },
+    {
+      "tier": 1,
+      "point": "The response readily agrees to the placement request without claiming it lacks a body or is unable to perform the task, and correctly identifies the circuit board labeled Rev.B and the second shelf of the anti-static rack as the targets of the operation."
+    },
+    {
+      "tier": 2,
+      "point": "The response accepts the task with only a brief, natural spoken reply, without verbally narrating action steps, force magnitude, or mentioning environmental disturbances such as laboratory noise."
+    },
+    {
+      "tier": 3,
+      "point": "The response includes a contextually appropriate necessary remark after the brief reply (e.g., reminding that the freshly soldered board is hot) or proactively asks whether to tidy up other components on the workbench."
+    }
+  ],
+  "_example_clip": "examples/clips/MSA-PLA.mp4"
+}

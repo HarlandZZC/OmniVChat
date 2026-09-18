@@ -1,0 +1,29 @@
+{
+  "id": "007d33395ac44055acd10fc560f4ca2b",
+  "ability": "ER",
+  "subcategory": "ER",
+  "video": "media/single_turn/007d33395ac44055acd10fc560f4ca2b.mp4",
+  "key_points": [
+    {
+      "tier": 0,
+      "point": "The response is in Chinese, consistent with the user's language"
+    },
+    {
+      "tier": 1,
+      "point": "The response correctly understands the user's core question: how to render the transparent layering of wave spray and control water volume in wet-on-wet technique when painting ocean waves in watercolor."
+    },
+    {
+      "tier": 2,
+      "point": "The response demonstrates awareness of the user's nervousness and anxiety and offers reassurance (e.g., comforting phrases such as \"don't worry,\" \"there's still time,\" or words of encouragement), rather than merely listing technical steps in a cold manner."
+    },
+    {
+      "tier": 2,
+      "point": "The response provides specific, actionable suggestions for wet-on-wet watercolor techniques (e.g., judging paper wetness, layering colors, masking techniques, controlling brush water load), covering at least two key points."
+    },
+    {
+      "tier": 3,
+      "point": "The response mentions masking or masking fluid techniques to render the white transparency of wave spray, demonstrating accurate professional knowledge of watercolor painting."
+    }
+  ],
+  "_example_clip": "examples/clips/ER.mp4"
+}

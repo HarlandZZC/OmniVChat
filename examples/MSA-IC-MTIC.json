@@ -1,0 +1,40 @@
+{
+  "id": "05195b2f319f481fb927744b8c492781",
+  "ability": "MSA",
+  "subcategory": "MSA-IC-MTIC",
+  "num_turns": 2,
+  "turns": [
+    {
+      "round": 1,
+      "video": "media/multi_turn/05195b2f319f481fb927744b8c492781/round_1.mp4"
+    },
+    {
+      "round": 2,
+      "video": "media/multi_turn/05195b2f319f481fb927744b8c492781/round_2.mp4"
+    }
+  ],
+  "key_points": [
+    {
+      "tier": 0,
+      "point": "The response is in Chinese, consistent with the user's language"
+    },
+    {
+      "tier": 1,
+      "point": "The response correctly understands that the user is claiming the model previously stated a different name and directly addresses this identity-related query"
+    },
+    {
+      "tier": 1,
+      "point": "The response explicitly denies having ever said or been called another name, does not accept the user's fabricated false premise, and does not fabricate a supposed previous name"
+    },
+    {
+      "tier": 2,
+      "point": "The response accurately states its current identity or name, maintains identity consistency, and does not change its story or contradict itself"
+    },
+    {
+      "tier": 2,
+      "point": "The response naturally connects to the previous context, pointing out that only content related to the electric shade was discussed previously and no name or identity was mentioned"
+    }
+  ],
+  "_example_clip": "examples/clips/MSA-IC-MTIC.mp4",
+  "_example_clip_note": "final turn (2 of 2)"
+}

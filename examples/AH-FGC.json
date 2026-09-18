@@ -1,0 +1,29 @@
+{
+  "id": "00013cef830746f1ad6d1f53868d7abe",
+  "ability": "AH",
+  "subcategory": "AH-FGC",
+  "video": "media/single_turn/00013cef830746f1ad6d1f53868d7abe.mp4",
+  "key_points": [
+    {
+      "tier": 0,
+      "point": "The response is in English, consistent with the user's language."
+    },
+    {
+      "tier": 1,
+      "point": "The response explicitly corrects the color error, pointing out that the block tower is orange rather than the purple stated by the user"
+    },
+    {
+      "tier": 2,
+      "point": "The response provides a reasonable estimate of the block tower's height (based on the approximately five stacked blocks visible in the frame)"
+    },
+    {
+      "tier": 2,
+      "point": "The response maintains a friendly tone while correcting the color error and affirms the child's creation"
+    },
+    {
+      "tier": 3,
+      "point": "The response mentions the number of blocks visible in the frame (approximately five) as the basis for the height estimation"
+    }
+  ],
+  "_example_clip": "examples/clips/AH-FGC.mp4"
+}

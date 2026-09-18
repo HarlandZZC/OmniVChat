@@ -1,0 +1,155 @@
+[
+ {
+  "subcategory": "AH-AOR",
+  "ability": "AH",
+  "turns": "single",
+  "id": "003a441bb5f946ab9e1518397259b62c",
+  "json": "examples/AH-AOR.json",
+  "clip": "examples/clips/AH-AOR.mp4",
+  "size_kb": 144
+ },
+ {
+  "subcategory": "AH-FGC",
+  "ability": "AH",
+  "turns": "single",
+  "id": "00013cef830746f1ad6d1f53868d7abe",
+  "json": "examples/AH-FGC.json",
+  "clip": "examples/clips/AH-FGC.mp4",
+  "size_kb": 223
+ },
+ {
+  "subcategory": "DSLP-VCC-ICC",
+  "ability": "DSLP",
+  "turns": "single",
+  "id": "003e2212298d4a6faf1ca2002d3b9e48",
+  "json": "examples/DSLP-VCC-ICC.json",
+  "clip": "examples/clips/DSLP-VCC-ICC.mp4",
+  "size_kb": 393
+ },
+ {
+  "subcategory": "DSLP-VCC-MDCC",
+  "ability": "DSLP",
+  "turns": "multi",
+  "id": "0c22a40c891b4e1983dee81eb9919249",
+  "json": "examples/DSLP-VCC-MDCC.json",
+  "clip": "examples/clips/DSLP-VCC-MDCC.mp4",
+  "size_kb": 156
+ },
+ {
+  "subcategory": "DSLP-VDMC-MVMS",
+  "ability": "DSLP",
+  "turns": "multi",
+  "id": "0140e5f842264d5f99dd78ddbe709c84",
+  "json": "examples/DSLP-VDMC-MVMS.json",
+  "clip": "examples/clips/DSLP-VDMC-MVMS.mp4",
+  "size_kb": 223
+ },
+ {
+  "subcategory": "DSLP-VDMC-SVMR",
+  "ability": "DSLP",
+  "turns": "single",
+  "id": "000dbfebde164164bfa8661524e6ad50",
+  "json": "examples/DSLP-VDMC-SVMR.json",
+  "clip": "examples/clips/DSLP-VDMC-SVMR.mp4",
+  "size_kb": 169
+ },
+ {
+  "subcategory": "DSLP-VTT-UCR",
+  "ability": "DSLP",
+  "turns": "single",
+  "id": "0011fb4cdc4640579b8c0b7688ee6dd0",
+  "json": "examples/DSLP-VTT-UCR.json",
+  "clip": "examples/clips/DSLP-VTT-UCR.mp4",
+  "size_kb": 269
+ },
+ {
+  "subcategory": "DSLP-VTT-UPC",
+  "ability": "DSLP",
+  "turns": "single",
+  "id": "000d678043e34a1ebbc8f59b11afe93b",
+  "json": "examples/DSLP-VTT-UPC.json",
+  "clip": "examples/clips/DSLP-VTT-UPC.mp4",
+  "size_kb": 248
+ },
+ {
+  "subcategory": "ER",
+  "ability": "ER",
+  "turns": "single",
+  "id": "007d33395ac44055acd10fc560f4ca2b",
+  "json": "examples/ER.json",
+  "clip": "examples/clips/ER.mp4",
+  "size_kb": 290
+ },
+ {
+  "subcategory": "MEA-RC-AR",
+  "ability": "MEA",
+  "turns": "single",
+  "id": "0042fbd5b95b48119e67da1cd920f98d",
+  "json": "examples/MEA-RC-AR.json",
+  "clip": "examples/clips/MEA-RC-AR.mp4",
+  "size_kb": 323
+ },
+ {
+  "subcategory": "MEA-RC-DR",
+  "ability": "MEA",
+  "turns": "single",
+  "id": "0046fc97a9b5404aab8d0ffb787e9b00",
+  "json": "examples/MEA-RC-DR.json",
+  "clip": "examples/clips/MEA-RC-DR.mp4",
+  "size_kb": 135
+ },
+ {
+  "subcategory": "MEA-RC-MRR",
+  "ability": "MEA",
+  "turns": "multi",
+  "id": "006392af9bcc4aa7bd54094e6473789a",
+  "json": "examples/MEA-RC-MRR.json",
+  "clip": "examples/clips/MEA-RC-MRR.mp4",
+  "size_kb": 118
+ },
+ {
+  "subcategory": "MEA-SDI-MIST",
+  "ability": "MEA",
+  "turns": "multi",
+  "id": "01820b5ad48c46cfafbc51db8475a459",
+  "json": "examples/MEA-SDI-MIST.json",
+  "clip": "examples/clips/MEA-SDI-MIST.mp4",
+  "size_kb": 420
+ },
+ {
+  "subcategory": "MEA-SDI-SPSD",
+  "ability": "MEA",
+  "turns": "single",
+  "id": "019a405f6af64dde81a4cd5f98fdec04",
+  "json": "examples/MEA-SDI-SPSD.json",
+  "clip": "examples/clips/MEA-SDI-SPSD.mp4",
+  "size_kb": 257
+ },
+ {
+  "subcategory": "MSA-IC-MTIC",
+  "ability": "MSA",
+  "turns": "multi",
+  "id": "05195b2f319f481fb927744b8c492781",
+  "json": "examples/MSA-IC-MTIC.json",
+  "clip": "examples/clips/MSA-IC-MTIC.mp4",
+  "size_kb": 259
+ },
+ {
+  "subcategory": "MSA-IC-STIC",
+  "ability": "MSA",
+  "turns": "single",
+  "id": "00d75688f09545f189fdc2ceda5263ae",
+  "json": "examples/MSA-IC-STIC.json",
+  "clip": "examples/clips/MSA-IC-STIC.mp4",
+  "size_kb": 107
+ },
+ {
+  "subcategory": "MSA-PLA",
+  "ability": "MSA",
+  "turns": "single",
+  "id": "001ad78482474f8f9c0641d351926270",
+  "json": "examples/MSA-PLA.json",
+  "clip": "examples/clips/MSA-PLA.mp4",
+  "size_kb": 372
+ }
+]

@@ -1,0 +1,29 @@
+{
+  "id": "0046fc97a9b5404aab8d0ffb787e9b00",
+  "ability": "MEA",
+  "subcategory": "MEA-RC-DR",
+  "video": "media/single_turn/0046fc97a9b5404aab8d0ffb787e9b00.mp4",
+  "key_points": [
+    {
+      "tier": 0,
+      "point": "The response is in Chinese, consistent with the user's language"
+    },
+    {
+      "tier": 1,
+      "point": "The response correctly aligns \"that bottle of baijiu on the passenger seat\" to the white porcelain bottle in the frame and describes the pattern on the bottle body (blue floral branches/plum blossoms/blue-and-white style pattern), rather than misidentifying it as another object."
+    },
+    {
+      "tier": 2,
+      "point": "The response mentions stylistic features of the pattern, such as blue-and-white porcelain style, blue-and-white color scheme, or traditional Chinese motifs, demonstrating further recognition of the pattern."
+    },
+    {
+      "tier": 2,
+      "point": "The tone of the response is natural and upbeat, fitting the relaxed atmosphere of the user heading to a gathering, and is not overly stiff or verbose."
+    },
+    {
+      "tier": 3,
+      "point": "The response specifically identifies the flower in the pattern as plum blossoms (rather than vaguely referring to \"floral patterns\" or \"plant motifs\"), demonstrating finer-grained visual recognition."
+    }
+  ],
+  "_example_clip": "examples/clips/MEA-RC-DR.mp4"
+}

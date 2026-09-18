@@ -1,0 +1,29 @@
+{
+  "id": "0011fb4cdc4640579b8c0b7688ee6dd0",
+  "ability": "DSLP",
+  "subcategory": "DSLP-VTT-UCR",
+  "video": "media/single_turn/0011fb4cdc4640579b8c0b7688ee6dd0.mp4",
+  "key_points": [
+    {
+      "tier": 0,
+      "point": "The response is in English, consistent with the language used by the user"
+    },
+    {
+      "tier": 1,
+      "point": "The response correctly understands the user's core question—how to enhance storytelling and emotional impact through composition and angles when taking documentary photos for a community cleanup charity event—and provides relevant photography advice."
+    },
+    {
+      "tier": 2,
+      "point": "The response provides at least two specific, actionable documentary photography composition or angle techniques (e.g., low-angle shooting, close-up details, using natural frames, before-and-after contrasts)."
+    },
+    {
+      "tier": 2,
+      "point": "The response incorporates the specific context of the user's upcoming community cleanup volunteer activity, offering advice relevant to the charity event scenario (e.g., capturing volunteers in action, before-and-after cleanup contrasts) rather than generic photography tips."
+    },
+    {
+      "tier": 3,
+      "point": "The response references visual information from the video (e.g., the user's framing gesture, orange volunteer vest, camera bag on the passenger seat), demonstrating perception and utilization of the visual channel."
+    }
+  ],
+  "_example_clip": "examples/clips/DSLP-VTT-UCR.mp4"
+}

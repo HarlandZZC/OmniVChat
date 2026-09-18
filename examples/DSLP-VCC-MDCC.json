@@ -1,0 +1,40 @@
+{
+  "id": "0c22a40c891b4e1983dee81eb9919249",
+  "ability": "DSLP",
+  "subcategory": "DSLP-VCC-MDCC",
+  "num_turns": 2,
+  "turns": [
+    {
+      "round": 1,
+      "video": "media/multi_turn/0c22a40c891b4e1983dee81eb9919249/round_1.mp4"
+    },
+    {
+      "round": 2,
+      "video": "media/multi_turn/0c22a40c891b4e1983dee81eb9919249/round_2.mp4"
+    }
+  ],
+  "key_points": [
+    {
+      "tier": 0,
+      "point": "The response is in Chinese, consistent with the user's language"
+    },
+    {
+      "tier": 1,
+      "point": "Clearly confirms that the connection is normal, that it has been online all along, and that it can hear the user speaking"
+    },
+    {
+      "tier": 1,
+      "point": "Does not claim to be a text-only model or unable to hear or see the user"
+    },
+    {
+      "tier": 2,
+      "point": "Reassures the user about concerns over switching to mobile data, using a relaxed tone appropriate for casual chat"
+    },
+    {
+      "tier": 2,
+      "point": "Naturally transitions back and invites the user to continue the previous hypothetical discussion about whether all of humanity jumping together would knock Earth off its orbit"
+    }
+  ],
+  "_example_clip": "examples/clips/DSLP-VCC-MDCC.mp4",
+  "_example_clip_note": "final turn (2 of 2)"
+}

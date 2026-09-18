@@ -1,0 +1,11 @@
+[AI Reply]
+{{ target_response }}
+
+[Model Under Test]
+{{ target_model }}{% if identity_aliases %} (other correct names for the same model: {{ identity_aliases | join(', ') }}){% endif %}
+
+[Scoring Criteria]
+{{ key_points }}
+
+Return only the following JSON format, with nothing else:
+{"hits": [list of the numbers of the criteria that are met, starting from 1], "reasoning": "a short explanation"}

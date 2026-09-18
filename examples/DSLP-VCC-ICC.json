@@ -1,0 +1,29 @@
+{
+  "id": "003e2212298d4a6faf1ca2002d3b9e48",
+  "ability": "DSLP",
+  "subcategory": "DSLP-VCC-ICC",
+  "video": "media/single_turn/003e2212298d4a6faf1ca2002d3b9e48.mp4",
+  "key_points": [
+    {
+      "tier": 0,
+      "point": "The response is in English, consistent with the user's language."
+    },
+    {
+      "tier": 1,
+      "point": "The response explicitly confirms that it can hear the user (e.g., \"I can hear you\" / \"yes I hear you\"), directly addressing the user's connectivity check."
+    },
+    {
+      "tier": 2,
+      "point": "The response demonstrates awareness of the acoustic feature of the user whispering or lowering their voice (e.g., mentioning that the user is keeping quiet or speaking softly)."
+    },
+    {
+      "tier": 2,
+      "point": "The response proactively invites the user to continue speaking or state their request, yielding the turn back to the user."
+    },
+    {
+      "tier": 3,
+      "point": "The response demonstrates awareness of visual information regarding the user's outdoor environment (e.g., hiking, mountain forest) or the presence of other people nearby."
+    }
+  ],
+  "_example_clip": "examples/clips/DSLP-VCC-ICC.mp4"
+}

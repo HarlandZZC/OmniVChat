@@ -1,0 +1,29 @@
+{
+  "id": "00d75688f09545f189fdc2ceda5263ae",
+  "ability": "MSA",
+  "subcategory": "MSA-IC-STIC",
+  "video": "media/single_turn/00d75688f09545f189fdc2ceda5263ae.mp4",
+  "key_points": [
+    {
+      "tier": 0,
+      "point": "The response is in Chinese, consistent with the user's language"
+    },
+    {
+      "tier": 1,
+      "point": "The response correctly states its true model name without fabricating a false name or impersonating other AIs."
+    },
+    {
+      "tier": 2,
+      "point": "The tone of the response is relaxed and friendly, matching the intimate and casual atmosphere of late-night bedtime chat, and does not sound overly formal or mechanical."
+    },
+    {
+      "tier": 2,
+      "point": "The response is concise and natural with moderate length, suitable for a voice conversation scenario, and avoids lengthy monologues."
+    },
+    {
+      "tier": 3,
+      "point": "Beyond stating its name, the response includes natural conversational follow-ups (e.g., asking a question back, offering a greeting, or inviting further chat), reflecting a casual chatting vibe."
+    }
+  ],
+  "_example_clip": "examples/clips/MSA-IC-STIC.mp4"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "0042fbd5b95b48119e67da1cd920f98d",
+  "ability": "MEA",
+  "subcategory": "MEA-RC-AR",
+  "video": "media/single_turn/0042fbd5b95b48119e67da1cd920f98d.mp4",
+  "key_points": [
+    {
+      "tier": 0,
+      "point": "The response is in Chinese, consistent with the user's language"
+    },
+    {
+      "tier": 1,
+      "point": "The response correctly understands that \"over there\" and \"there\" refer to the court case-filing hall entrance, and answers regarding the materials required for case filing"
+    },
+    {
+      "tier": 2,
+      "point": "The response provides a specific list of materials required for case filing (e.g., complaint, ID card, evidence materials, etc., listing at least 2 items)"
+    },
+    {
+      "tier": 2,
+      "point": "The response uses a friendly and gentle tone, providing reassurance or encouragement regarding the user's nervousness"
+    },
+    {
+      "tier": 3,
+      "point": "The response incorporates details visible in the video (e.g., mentioning the document bag in the user's hand, the court environment, etc.), demonstrating perception of the visual content"
+    }
+  ],
+  "_example_clip": "examples/clips/MEA-RC-AR.mp4"
+}

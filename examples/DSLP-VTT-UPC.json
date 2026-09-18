@@ -1,0 +1,29 @@
+{
+  "id": "000d678043e34a1ebbc8f59b11afe93b",
+  "ability": "DSLP",
+  "subcategory": "DSLP-VTT-UPC",
+  "video": "media/single_turn/000d678043e34a1ebbc8f59b11afe93b.mp4",
+  "key_points": [
+    {
+      "tier": 0,
+      "point": "The response is in Chinese, consistent with the user's language"
+    },
+    {
+      "tier": 1,
+      "point": "The response correctly identifies that the user has not finished speaking (the name of the traditional folk art has not yet been stated), does not answer prematurely, does not guess specific genre names (such as Northern Shaanxi storytelling, Qinqiang opera, Meihu opera, etc.), and keeps the turn with the user."
+    },
+    {
+      "tier": 1,
+      "point": "The response is brief and restrained, avoiding lengthy information output, consistent with the user's mid-sentence pause while still organizing their thoughts."
+    },
+    {
+      "tier": 2,
+      "point": "The response conveys a patient listening attitude such as 'no rush', 'I'm listening', or 'take your time', encouraging the user to continue speaking."
+    },
+    {
+      "tier": 2,
+      "point": "The tone is natural and conversational, fitting the relaxed scenario of resting during travel, without stiff customer-service phrasing or long sentences."
+    }
+  ],
+  "_example_clip": "examples/clips/DSLP-VTT-UPC.mp4"
+}

@@ -1,0 +1,44 @@
+{
+  "id": "0140e5f842264d5f99dd78ddbe709c84",
+  "ability": "DSLP",
+  "subcategory": "DSLP-VDMC-MVMS",
+  "num_turns": 3,
+  "turns": [
+    {
+      "round": 1,
+      "video": "media/multi_turn/0140e5f842264d5f99dd78ddbe709c84/round_1.mp4"
+    },
+    {
+      "round": 2,
+      "video": "media/multi_turn/0140e5f842264d5f99dd78ddbe709c84/round_2.mp4"
+    },
+    {
+      "round": 3,
+      "video": "media/multi_turn/0140e5f842264d5f99dd78ddbe709c84/round_3.mp4"
+    }
+  ],
+  "key_points": [
+    {
+      "tier": 0,
+      "point": "Language consistency: The user asks in Chinese, and the response must be in Chinese."
+    },
+    {
+      "tier": 1,
+      "point": "Core intent understanding: Correctly answers Character A's question \"Is the mug on my right hand side holding pens or empty?\" with \"empty\" or \"no pens\"."
+    },
+    {
+      "tier": 1,
+      "point": "Correct visual mode and left-right mapping: Identifies rear-camera mode based on Character A being absent from the frame and the camera pointing at the desk in the final round, and interprets \"Character A's right hand side\" as the right side of the frame rather than applying the mirrored mapping from the previous two selfie-mode rounds."
+    },
+    {
+      "tier": 2,
+      "point": "Response quality: The answer is concise and direct, without irrelevant suggestions or fabrication of mugs, pens, or other items not present on the desk."
+    },
+    {
+      "tier": 3,
+      "point": "Detail accuracy: Further notes that the white mug on the left side of the frame contains pens, while the white mug on the right side of the frame is empty."
+    }
+  ],
+  "_example_clip": "examples/clips/DSLP-VDMC-MVMS.mp4",
+  "_example_clip_note": "final turn (3 of 3)"
+}
