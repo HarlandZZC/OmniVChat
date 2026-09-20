@@ -62,7 +62,11 @@ in an earlier one, which is the whole point of that subcategory. All 17 subcateg
 in [`examples/clips/`](examples/clips), small enough to browse without downloading the 28 GB.
 
 **What a rubric looks like.** For the [`DSLP-VDMC-SVMR`](examples/DSLP-VDMC-SVMR.json)
-clip above, its `key_points` array is:
+clip above, its `key_points` array is shown below. Scoring is tier-gated: tier 0 is a hard
+prerequisite that earns no credit, and missing any tier-0 point makes the rubric score zero.
+A hit at tier *n* ≥ 1 counts only after every point in all lower tiers has been hit; an incomplete
+tier also keeps every higher tier locked. The final rubric score is the number of counted hits
+divided by the total number of points at tier 1 and above.
 
 | Tier | Point |
 |---:|---|
