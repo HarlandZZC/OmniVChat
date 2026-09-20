@@ -4,6 +4,7 @@
 <div align="center"><img src="assets/title.jpg" width="100%" alt="OmniVChat: Synthesizing, Benchmarking, and Training for Native Audio-Visual Dialogue" style="display:block;margin:0 auto"></div>
 <div align="center"><sup>1</sup> The Chinese University of Hong Kong&emsp;<sup>2</sup> Alibaba Token Hub, Alibaba Group</div>
 <div align="center"><sup>3</sup> Shanghai Jiao Tong University&emsp;<sup>4</sup> Shanghai Innovation Institute&emsp;<sup>5</sup> Zhejiang University</div>
+<br>
 
 **OmniVChat** (Omni Video Chat) is the task of native audio-visual dialogue: an omni model
 directly and simultaneously receives audio and video from a user and returns text. The user's
