@@ -52,10 +52,10 @@ repository carries the code and the examples, not the media.
 
 <table>
 <tr>
-<td align="center" valign="top" width="25%"><a href="examples/clips/AH-AOR.mp4"><img src="assets/previews/AH-AOR.gif" width="190" alt="AH-AOR"></a></td>
-<td align="center" valign="top" width="25%"><a href="examples/clips/MEA-RC-DR.mp4"><img src="assets/previews/MEA-RC-DR.gif" width="190" alt="MEA-RC-DR"></a></td>
-<td align="center" valign="top" width="25%"><a href="examples/clips/DSLP-VTT-UPC.mp4"><img src="assets/previews/DSLP-VTT-UPC.gif" width="190" alt="DSLP-VTT-UPC"></a></td>
-<td align="center" valign="top" width="25%"><a href="examples/clips/MSA-PLA.mp4"><img src="assets/previews/MSA-PLA.gif" width="190" alt="MSA-PLA"></a></td>
+<td align="center" valign="top" width="25%"><a href="https://huggingface.co/datasets/Harland/OmniVChat/blob/main/examples/clips/AH-AOR.mp4"><img src="assets/previews/AH-AOR.gif" width="190" alt="AH-AOR"></a></td>
+<td align="center" valign="top" width="25%"><a href="https://huggingface.co/datasets/Harland/OmniVChat/blob/main/examples/clips/MEA-RC-DR.mp4"><img src="assets/previews/MEA-RC-DR.gif" width="190" alt="MEA-RC-DR"></a></td>
+<td align="center" valign="top" width="25%"><a href="https://huggingface.co/datasets/Harland/OmniVChat/blob/main/examples/clips/DSLP-VTT-UPC.mp4"><img src="assets/previews/DSLP-VTT-UPC.gif" width="190" alt="DSLP-VTT-UPC"></a></td>
+<td align="center" valign="top" width="25%"><a href="https://huggingface.co/datasets/Harland/OmniVChat/blob/main/examples/clips/MSA-PLA.mp4"><img src="assets/previews/MSA-PLA.gif" width="190" alt="MSA-PLA"></a></td>
 </tr>
 <tr>
 <td align="center" valign="top"><strong>AH</strong><br><code>AH-AOR</code><br><sub>She asks what the model thought of the lullaby she just sang. She never sang.</sub></td>
@@ -64,10 +64,10 @@ repository carries the code and the examples, not the media.
 <td align="center" valign="top"><strong>MSA</strong><br><code>MSA-PLA</code><br><sub>He asks the model to put a circuit board on the rack — it has no hands.</sub></td>
 </tr>
 <tr>
-<td align="center" valign="top"><a href="examples/clips/ER.mp4"><img src="assets/previews/ER.gif" width="190" alt="ER"></a></td>
-<td align="center" valign="top"><a href="examples/clips/DSLP-VDMC-SVMR.mp4"><img src="assets/previews/DSLP-VDMC-SVMR.gif" width="190" alt="DSLP-VDMC-SVMR"></a></td>
-<td align="center" valign="top"><a href="examples/clips/MEA-RC-MRR.mp4"><img src="assets/previews/MEA-RC-MRR.gif" width="190" alt="MEA-RC-MRR"></a></td>
-<td align="center" valign="top"><a href="examples/clips/MSA-IC-STIC.mp4"><img src="assets/previews/MSA-IC-STIC.gif" width="190" alt="MSA-IC-STIC"></a></td>
+<td align="center" valign="top"><a href="https://huggingface.co/datasets/Harland/OmniVChat/blob/main/examples/clips/ER.mp4"><img src="assets/previews/ER.gif" width="190" alt="ER"></a></td>
+<td align="center" valign="top"><a href="https://huggingface.co/datasets/Harland/OmniVChat/blob/main/examples/clips/DSLP-VDMC-SVMR.mp4"><img src="assets/previews/DSLP-VDMC-SVMR.gif" width="190" alt="DSLP-VDMC-SVMR"></a></td>
+<td align="center" valign="top"><a href="https://huggingface.co/datasets/Harland/OmniVChat/blob/main/examples/clips/MEA-RC-MRR.mp4"><img src="assets/previews/MEA-RC-MRR.gif" width="190" alt="MEA-RC-MRR"></a></td>
+<td align="center" valign="top"><a href="https://huggingface.co/datasets/Harland/OmniVChat/blob/main/examples/clips/MSA-IC-STIC.mp4"><img src="assets/previews/MSA-IC-STIC.gif" width="190" alt="MSA-IC-STIC"></a></td>
 </tr>
 <tr>
 <td align="center" valign="top"><strong>ER</strong><br><code>ER</code><br><sub>Anxious about a wet-on-wet wash, he asks how to keep the wave spray transparent.</sub></td>
@@ -131,23 +131,23 @@ turn, the one that gets scored.
 
 | Subcategory | Ability | Turns | Data | Clip |
 |---|---|---|---|---|
-| `AH-AOR` | AH | single | [json](examples/AH-AOR.json) | [144 KB](examples/clips/AH-AOR.mp4) |
-| `AH-FGC` | AH | single | [json](examples/AH-FGC.json) | [223 KB](examples/clips/AH-FGC.mp4) |
-| `DSLP-VCC-ICC` | DSLP | single | [json](examples/DSLP-VCC-ICC.json) | [393 KB](examples/clips/DSLP-VCC-ICC.mp4) |
-| `DSLP-VCC-MDCC` | DSLP | multi | [json](examples/DSLP-VCC-MDCC.json) | [156 KB](examples/clips/DSLP-VCC-MDCC.mp4) |
-| `DSLP-VDMC-MVMS` | DSLP | multi | [json](examples/DSLP-VDMC-MVMS.json) | [223 KB](examples/clips/DSLP-VDMC-MVMS.mp4) |
-| `DSLP-VDMC-SVMR` | DSLP | single | [json](examples/DSLP-VDMC-SVMR.json) | [169 KB](examples/clips/DSLP-VDMC-SVMR.mp4) |
-| `DSLP-VTT-UCR` | DSLP | single | [json](examples/DSLP-VTT-UCR.json) | [269 KB](examples/clips/DSLP-VTT-UCR.mp4) |
-| `DSLP-VTT-UPC` | DSLP | single | [json](examples/DSLP-VTT-UPC.json) | [248 KB](examples/clips/DSLP-VTT-UPC.mp4) |
-| `ER` | ER | single | [json](examples/ER.json) | [290 KB](examples/clips/ER.mp4) |
-| `MEA-RC-AR` | MEA | single | [json](examples/MEA-RC-AR.json) | [323 KB](examples/clips/MEA-RC-AR.mp4) |
-| `MEA-RC-DR` | MEA | single | [json](examples/MEA-RC-DR.json) | [135 KB](examples/clips/MEA-RC-DR.mp4) |
-| `MEA-RC-MRR` | MEA | multi | [json](examples/MEA-RC-MRR.json) | [118 KB](examples/clips/MEA-RC-MRR.mp4) |
-| `MEA-SDI-MIST` | MEA | multi | [json](examples/MEA-SDI-MIST.json) | [420 KB](examples/clips/MEA-SDI-MIST.mp4) |
-| `MEA-SDI-SPSD` | MEA | single | [json](examples/MEA-SDI-SPSD.json) | [257 KB](examples/clips/MEA-SDI-SPSD.mp4) |
-| `MSA-IC-MTIC` | MSA | multi | [json](examples/MSA-IC-MTIC.json) | [259 KB](examples/clips/MSA-IC-MTIC.mp4) |
-| `MSA-IC-STIC` | MSA | single | [json](examples/MSA-IC-STIC.json) | [107 KB](examples/clips/MSA-IC-STIC.mp4) |
-| `MSA-PLA` | MSA | single | [json](examples/MSA-PLA.json) | [372 KB](examples/clips/MSA-PLA.mp4) |
+| `AH-AOR` | AH | single | [json](examples/AH-AOR.json) | [144 KB](https://huggingface.co/datasets/Harland/OmniVChat/blob/main/examples/clips/AH-AOR.mp4) |
+| `AH-FGC` | AH | single | [json](examples/AH-FGC.json) | [223 KB](https://huggingface.co/datasets/Harland/OmniVChat/blob/main/examples/clips/AH-FGC.mp4) |
+| `DSLP-VCC-ICC` | DSLP | single | [json](examples/DSLP-VCC-ICC.json) | [393 KB](https://huggingface.co/datasets/Harland/OmniVChat/blob/main/examples/clips/DSLP-VCC-ICC.mp4) |
+| `DSLP-VCC-MDCC` | DSLP | multi | [json](examples/DSLP-VCC-MDCC.json) | [156 KB](https://huggingface.co/datasets/Harland/OmniVChat/blob/main/examples/clips/DSLP-VCC-MDCC.mp4) |
+| `DSLP-VDMC-MVMS` | DSLP | multi | [json](examples/DSLP-VDMC-MVMS.json) | [223 KB](https://huggingface.co/datasets/Harland/OmniVChat/blob/main/examples/clips/DSLP-VDMC-MVMS.mp4) |
+| `DSLP-VDMC-SVMR` | DSLP | single | [json](examples/DSLP-VDMC-SVMR.json) | [169 KB](https://huggingface.co/datasets/Harland/OmniVChat/blob/main/examples/clips/DSLP-VDMC-SVMR.mp4) |
+| `DSLP-VTT-UCR` | DSLP | single | [json](examples/DSLP-VTT-UCR.json) | [269 KB](https://huggingface.co/datasets/Harland/OmniVChat/blob/main/examples/clips/DSLP-VTT-UCR.mp4) |
+| `DSLP-VTT-UPC` | DSLP | single | [json](examples/DSLP-VTT-UPC.json) | [248 KB](https://huggingface.co/datasets/Harland/OmniVChat/blob/main/examples/clips/DSLP-VTT-UPC.mp4) |
+| `ER` | ER | single | [json](examples/ER.json) | [290 KB](https://huggingface.co/datasets/Harland/OmniVChat/blob/main/examples/clips/ER.mp4) |
+| `MEA-RC-AR` | MEA | single | [json](examples/MEA-RC-AR.json) | [323 KB](https://huggingface.co/datasets/Harland/OmniVChat/blob/main/examples/clips/MEA-RC-AR.mp4) |
+| `MEA-RC-DR` | MEA | single | [json](examples/MEA-RC-DR.json) | [135 KB](https://huggingface.co/datasets/Harland/OmniVChat/blob/main/examples/clips/MEA-RC-DR.mp4) |
+| `MEA-RC-MRR` | MEA | multi | [json](examples/MEA-RC-MRR.json) | [118 KB](https://huggingface.co/datasets/Harland/OmniVChat/blob/main/examples/clips/MEA-RC-MRR.mp4) |
+| `MEA-SDI-MIST` | MEA | multi | [json](examples/MEA-SDI-MIST.json) | [420 KB](https://huggingface.co/datasets/Harland/OmniVChat/blob/main/examples/clips/MEA-SDI-MIST.mp4) |
+| `MEA-SDI-SPSD` | MEA | single | [json](examples/MEA-SDI-SPSD.json) | [257 KB](https://huggingface.co/datasets/Harland/OmniVChat/blob/main/examples/clips/MEA-SDI-SPSD.mp4) |
+| `MSA-IC-MTIC` | MSA | multi | [json](examples/MSA-IC-MTIC.json) | [259 KB](https://huggingface.co/datasets/Harland/OmniVChat/blob/main/examples/clips/MSA-IC-MTIC.mp4) |
+| `MSA-IC-STIC` | MSA | single | [json](examples/MSA-IC-STIC.json) | [107 KB](https://huggingface.co/datasets/Harland/OmniVChat/blob/main/examples/clips/MSA-IC-STIC.mp4) |
+| `MSA-PLA` | MSA | single | [json](examples/MSA-PLA.json) | [372 KB](https://huggingface.co/datasets/Harland/OmniVChat/blob/main/examples/clips/MSA-PLA.mp4) |
 
 The two `_example_clip*` fields in those files are added here for convenience and are
 not part of the dataset.
