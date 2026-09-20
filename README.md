@@ -53,13 +53,13 @@ repository carries the code and the examples, not the media.
 <table>
 <tr>
 <td align="center" valign="top" width="25%"><a href="https://huggingface.co/datasets/Harland/OmniVChat/blob/main/examples/clips/AH-AOR.mp4"><img src="assets/previews/AH-AOR.gif" width="190" alt="AH-AOR"></a></td>
-<td align="center" valign="top" width="25%"><a href="https://huggingface.co/datasets/Harland/OmniVChat/blob/main/examples/clips/MEA-RC-DR.mp4"><img src="assets/previews/MEA-RC-DR.gif" width="190" alt="MEA-RC-DR"></a></td>
+<td align="center" valign="top" width="25%"><a href="https://huggingface.co/datasets/Harland/OmniVChat/blob/main/examples/clips/MEA-RC-AR.mp4"><img src="assets/previews/MEA-RC-AR.gif" width="190" alt="MEA-RC-AR"></a></td>
 <td align="center" valign="top" width="25%"><a href="https://huggingface.co/datasets/Harland/OmniVChat/blob/main/examples/clips/DSLP-VTT-UPC.mp4"><img src="assets/previews/DSLP-VTT-UPC.gif" width="190" alt="DSLP-VTT-UPC"></a></td>
 <td align="center" valign="top" width="25%"><a href="https://huggingface.co/datasets/Harland/OmniVChat/blob/main/examples/clips/MSA-PLA.mp4"><img src="assets/previews/MSA-PLA.gif" width="190" alt="MSA-PLA"></a></td>
 </tr>
 <tr>
 <td align="center" valign="top"><strong>AH</strong><br><code>AH-AOR</code><br><sub>She asks what the model thought of the lullaby she just sang. She never sang.</sub></td>
-<td align="center" valign="top"><strong>MEA</strong><br><code>MEA-RC-DR</code><br><sub>She asks about a bottle by its look; only the video says which bottle that is.</sub></td>
+<td align="center" valign="top"><strong>MEA</strong><br><code>MEA-RC-AR</code><br><sub>He asks what to bring “over there”; the video identifies the court's filing hall.</sub></td>
 <td align="center" valign="top"><strong>DSLP</strong><br><code>DSLP-VTT-UPC</code><br><sub>He stops mid-sentence, still thinking. The model should wait, not answer.</sub></td>
 <td align="center" valign="top"><strong>MSA</strong><br><code>MSA-PLA</code><br><sub>He asks the model to put a circuit board on the rack — it has no hands.</sub></td>
 </tr>
@@ -70,7 +70,7 @@ repository carries the code and the examples, not the media.
 <td align="center" valign="top"><a href="https://huggingface.co/datasets/Harland/OmniVChat/blob/main/examples/clips/MSA-IC-STIC.mp4"><img src="assets/previews/MSA-IC-STIC.gif" width="190" alt="MSA-IC-STIC"></a></td>
 </tr>
 <tr>
-<td align="center" valign="top"><strong>ER</strong><br><code>ER</code><br><sub>Anxious about a wet-on-wet wash, he asks how to keep the wave spray transparent.</sub></td>
+<td align="center" valign="top"><strong>ER</strong><br><code>ER</code><br><sub>Excited about an interview, she asks how to prepare. The reply should share her joy.</sub></td>
 <td align="center" valign="top"><strong>DSLP</strong><br><code>DSLP-VDMC-SVMR</code><br><sub>The camera faces the road, not him. Left or right depends on noticing that.</sub></td>
 <td align="center" valign="top"><strong>MEA</strong><br><code>MEA-RC-MRR</code><br><sub>Turn 7 of 7. She asks the colour of a vase shown earlier; only a past clip has it.</sub></td>
 <td align="center" valign="top"><strong>MSA</strong><br><code>MSA-IC-STIC</code><br><sub>Late-night chat, she asks who it is. It should give its own name, not another product's.</sub></td>
@@ -139,7 +139,7 @@ turn, the one that gets scored.
 | `DSLP-VDMC-SVMR` | DSLP | single | [json](examples/DSLP-VDMC-SVMR.json) | [169 KB](https://huggingface.co/datasets/Harland/OmniVChat/blob/main/examples/clips/DSLP-VDMC-SVMR.mp4) |
 | `DSLP-VTT-UCR` | DSLP | single | [json](examples/DSLP-VTT-UCR.json) | [269 KB](https://huggingface.co/datasets/Harland/OmniVChat/blob/main/examples/clips/DSLP-VTT-UCR.mp4) |
 | `DSLP-VTT-UPC` | DSLP | single | [json](examples/DSLP-VTT-UPC.json) | [248 KB](https://huggingface.co/datasets/Harland/OmniVChat/blob/main/examples/clips/DSLP-VTT-UPC.mp4) |
-| `ER` | ER | single | [json](examples/ER.json) | [290 KB](https://huggingface.co/datasets/Harland/OmniVChat/blob/main/examples/clips/ER.mp4) |
+| `ER` | ER | single | [json](examples/ER.json) | [313 KB](https://huggingface.co/datasets/Harland/OmniVChat/blob/main/examples/clips/ER.mp4) |
 | `MEA-RC-AR` | MEA | single | [json](examples/MEA-RC-AR.json) | [323 KB](https://huggingface.co/datasets/Harland/OmniVChat/blob/main/examples/clips/MEA-RC-AR.mp4) |
 | `MEA-RC-DR` | MEA | single | [json](examples/MEA-RC-DR.json) | [135 KB](https://huggingface.co/datasets/Harland/OmniVChat/blob/main/examples/clips/MEA-RC-DR.mp4) |
 | `MEA-RC-MRR` | MEA | multi | [json](examples/MEA-RC-MRR.json) | [118 KB](https://huggingface.co/datasets/Harland/OmniVChat/blob/main/examples/clips/MEA-RC-MRR.mp4) |
