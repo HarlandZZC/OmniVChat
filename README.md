@@ -1,8 +1,6 @@
 # OmniVChat: Synthesizing, Benchmarking, and Training for Native Audio-Visual Dialogue
 
-<p align="center"><a href="https://huggingface.co/datasets/Harland/OmniVChat"><img src="https://img.shields.io/badge/%F0%9F%A4%97_Hugging_Face-Dataset-FFD21E" alt="Hugging Face dataset"></a>&nbsp;&nbsp;<img src="https://img.shields.io/badge/arXiv-Paper_Coming_Soon-B31B1B?logo=arxiv&logoColor=white" alt="arXiv paper coming soon"></p>
-
-<p align="center"><img src="assets/title.jpg" width="100%" alt="OmniVChat: Synthesizing, Benchmarking, and Training for Native Audio-Visual Dialogue"></p>
+<div align="center"><a href="https://huggingface.co/datasets/Harland/OmniVChat"><img src="https://img.shields.io/badge/%F0%9F%A4%97_Hugging_Face-Dataset-FFD21E" alt="Hugging Face dataset"></a>&nbsp;&nbsp;<img src="https://img.shields.io/badge/arXiv-Paper_Coming_Soon-B31B1B?logo=arxiv&logoColor=white" alt="arXiv paper coming soon"><br><img src="assets/title.jpg" width="100%" alt="OmniVChat: Synthesizing, Benchmarking, and Training for Native Audio-Visual Dialogue"></div>
 
 **OmniVChat** (Omni Video Chat) is the task of native audio-visual dialogue: an omni model
 directly and simultaneously receives audio and video from a user and returns text. The user's
