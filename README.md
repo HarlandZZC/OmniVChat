@@ -1,9 +1,6 @@
 # OmniVChat: Synthesizing, Benchmarking, and Training for Native Audio-Visual Dialogue
 
-<div align="center">
-  <a href="https://huggingface.co/datasets/Harland/OmniVChat"><img src="https://img.shields.io/badge/Hugging_Face-Dataset-FFD21E?logo=huggingface&logoColor=000" alt="Hugging Face dataset"></a>
-  <img src="https://img.shields.io/badge/arXiv-Paper_Coming_Soon-B31B1B?logo=arxiv&logoColor=white" alt="arXiv paper coming soon">
-</div>
+<p align="center"><a href="https://huggingface.co/datasets/Harland/OmniVChat"><img src="https://img.shields.io/badge/%F0%9F%A4%97_Hugging_Face-Dataset-FFD21E" alt="Hugging Face dataset"></a>&nbsp;&nbsp;<img src="https://img.shields.io/badge/arXiv-Paper_Coming_Soon-B31B1B?logo=arxiv&logoColor=white" alt="arXiv paper coming soon"></p>
 
 <p align="center"><img src="assets/title.jpg" width="100%" alt="OmniVChat: Synthesizing, Benchmarking, and Training for Native Audio-Visual Dialogue"></p>
 
