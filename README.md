@@ -50,12 +50,32 @@ half of it at best. Even that link is a 480p re-encode. The benchmark media itse
 the dataset ([Harland/OmniVChat](https://huggingface.co/datasets/Harland/OmniVChat)) — this
 repository carries the code and the examples, not the media.
 
-| | | | |
-|:--:|:--:|:--:|:--:|
-| <a href="examples/clips/AH-AOR.mp4"><img src="assets/previews/AH-AOR.gif" width="190" alt="AH-AOR"></a> | <a href="examples/clips/MEA-RC-DR.mp4"><img src="assets/previews/MEA-RC-DR.gif" width="190" alt="MEA-RC-DR"></a> | <a href="examples/clips/DSLP-VTT-UPC.mp4"><img src="assets/previews/DSLP-VTT-UPC.gif" width="190" alt="DSLP-VTT-UPC"></a> | <a href="examples/clips/MSA-PLA.mp4"><img src="assets/previews/MSA-PLA.gif" width="190" alt="MSA-PLA"></a> |
-| **AH**<br>`AH-AOR`<br><sub>She asks what the model thought of the lullaby she just sang. She never sang.</sub> | **MEA**<br>`MEA-RC-DR`<br><sub>She asks about a bottle by its look; only the video says which bottle that is.</sub> | **DSLP**<br>`DSLP-VTT-UPC`<br><sub>He stops mid-sentence, still thinking. The model should wait, not answer.</sub> | **MSA**<br>`MSA-PLA`<br><sub>He asks the model to put a circuit board on the rack — it has no hands.</sub> |
-| <a href="examples/clips/ER.mp4"><img src="assets/previews/ER.gif" width="190" alt="ER"></a> | <a href="examples/clips/DSLP-VDMC-SVMR.mp4"><img src="assets/previews/DSLP-VDMC-SVMR.gif" width="190" alt="DSLP-VDMC-SVMR"></a> | <a href="examples/clips/MEA-RC-MRR.mp4"><img src="assets/previews/MEA-RC-MRR.gif" width="190" alt="MEA-RC-MRR"></a> | <a href="examples/clips/MSA-IC-STIC.mp4"><img src="assets/previews/MSA-IC-STIC.gif" width="190" alt="MSA-IC-STIC"></a> |
-| **ER**<br>`ER`<br><sub>Anxious about a wet-on-wet wash, he asks how to keep the wave spray transparent.</sub> | **DSLP**<br>`DSLP-VDMC-SVMR`<br><sub>The camera faces the road, not him. Left or right depends on noticing that.</sub> | **MEA**<br>`MEA-RC-MRR`<br><sub>Turn 7 of 7. She asks the colour of a vase shown earlier; only a past clip has it.</sub> | **MSA**<br>`MSA-IC-STIC`<br><sub>Late-night chat, she asks who it is. It should give its own name, not another product's.</sub> |
+<table>
+<tr>
+<td align="center" valign="top" width="25%"><a href="examples/clips/AH-AOR.mp4"><img src="assets/previews/AH-AOR.gif" width="190" alt="AH-AOR"></a></td>
+<td align="center" valign="top" width="25%"><a href="examples/clips/MEA-RC-DR.mp4"><img src="assets/previews/MEA-RC-DR.gif" width="190" alt="MEA-RC-DR"></a></td>
+<td align="center" valign="top" width="25%"><a href="examples/clips/DSLP-VTT-UPC.mp4"><img src="assets/previews/DSLP-VTT-UPC.gif" width="190" alt="DSLP-VTT-UPC"></a></td>
+<td align="center" valign="top" width="25%"><a href="examples/clips/MSA-PLA.mp4"><img src="assets/previews/MSA-PLA.gif" width="190" alt="MSA-PLA"></a></td>
+</tr>
+<tr>
+<td align="center" valign="top"><strong>AH</strong><br><code>AH-AOR</code><br><sub>She asks what the model thought of the lullaby she just sang. She never sang.</sub></td>
+<td align="center" valign="top"><strong>MEA</strong><br><code>MEA-RC-DR</code><br><sub>She asks about a bottle by its look; only the video says which bottle that is.</sub></td>
+<td align="center" valign="top"><strong>DSLP</strong><br><code>DSLP-VTT-UPC</code><br><sub>He stops mid-sentence, still thinking. The model should wait, not answer.</sub></td>
+<td align="center" valign="top"><strong>MSA</strong><br><code>MSA-PLA</code><br><sub>He asks the model to put a circuit board on the rack — it has no hands.</sub></td>
+</tr>
+<tr>
+<td align="center" valign="top"><a href="examples/clips/ER.mp4"><img src="assets/previews/ER.gif" width="190" alt="ER"></a></td>
+<td align="center" valign="top"><a href="examples/clips/DSLP-VDMC-SVMR.mp4"><img src="assets/previews/DSLP-VDMC-SVMR.gif" width="190" alt="DSLP-VDMC-SVMR"></a></td>
+<td align="center" valign="top"><a href="examples/clips/MEA-RC-MRR.mp4"><img src="assets/previews/MEA-RC-MRR.gif" width="190" alt="MEA-RC-MRR"></a></td>
+<td align="center" valign="top"><a href="examples/clips/MSA-IC-STIC.mp4"><img src="assets/previews/MSA-IC-STIC.gif" width="190" alt="MSA-IC-STIC"></a></td>
+</tr>
+<tr>
+<td align="center" valign="top"><strong>ER</strong><br><code>ER</code><br><sub>Anxious about a wet-on-wet wash, he asks how to keep the wave spray transparent.</sub></td>
+<td align="center" valign="top"><strong>DSLP</strong><br><code>DSLP-VDMC-SVMR</code><br><sub>The camera faces the road, not him. Left or right depends on noticing that.</sub></td>
+<td align="center" valign="top"><strong>MEA</strong><br><code>MEA-RC-MRR</code><br><sub>Turn 7 of 7. She asks the colour of a vase shown earlier; only a past clip has it.</sub></td>
+<td align="center" valign="top"><strong>MSA</strong><br><code>MSA-IC-STIC</code><br><sub>Late-night chat, she asks who it is. It should give its own name, not another product's.</sub></td>
+</tr>
+</table>
 
 `MEA-RC-MRR` is multi-turn, so its preview is the final turn — the vase it asks about was shown
 in an earlier one, which is the whole point of that subcategory. All 17 subcategories have a clip
