@@ -84,10 +84,10 @@
   "subcategory": "MEA-RC-AR",
   "ability": "MEA",
   "turns": "single",
-  "id": "0042fbd5b95b48119e67da1cd920f98d",
+  "id": "7d81ddaa0b924b758e3946d7978f38c6",
   "json": "examples/MEA-RC-AR.json",
   "clip": "examples/clips/MEA-RC-AR.mp4",
-  "size_kb": 323
+  "size_kb": 270
  },
  {
   "subcategory": "MEA-RC-DR",

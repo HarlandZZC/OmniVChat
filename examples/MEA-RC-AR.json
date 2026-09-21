@@ -1,28 +1,28 @@
 {
-  "id": "0042fbd5b95b48119e67da1cd920f98d",
+  "id": "7d81ddaa0b924b758e3946d7978f38c6",
   "ability": "MEA",
   "subcategory": "MEA-RC-AR",
-  "video": "media/single_turn/0042fbd5b95b48119e67da1cd920f98d.mp4",
+  "video": "media/single_turn/7d81ddaa0b924b758e3946d7978f38c6.mp4",
   "key_points": [
     {
       "tier": 0,
-      "point": "The response is in Chinese, consistent with the user's language"
+      "point": "The response is in English, consistent with the user's language."
     },
     {
       "tier": 1,
-      "point": "The response correctly understands that \"over there\" and \"there\" refer to the court case-filing hall entrance, and answers regarding the materials required for case filing"
+      "point": "The response correctly resolves the pronouns 'this one' and 'it', identifying that the user is holding a painted wooden elephant (painted elephant / colorful wooden elephant) rather than other items on the stall."
     },
     {
       "tier": 2,
-      "point": "The response provides a specific list of materials required for case filing (e.g., complaint, ID card, evidence materials, etc., listing at least 2 items)"
+      "point": "The response provides a substantive judgment regarding suitability for a five-year-old, affirming the appeal of bright colors and animal shapes to young children."
     },
     {
       "tier": 2,
-      "point": "The response uses a friendly and gentle tone, providing reassurance or encouragement regarding the user's nervousness"
+      "point": "The response mentions safety considerations (such as sharp edges, risk of small parts detaching, or non-toxic paint) to provide practical advice for parents making a purchase."
     },
     {
       "tier": 3,
-      "point": "The response incorporates details visible in the video (e.g., mentioning the document bag in the user's hand, the court environment, etc.), demonstrating perception of the visual content"
+      "point": "The response specifically cites visual details visible in the video (such as bright colors like red, blue, and yellow), demonstrating accurate perception of the frame content."
     }
   ],
   "_example_clip": "examples/clips/MEA-RC-AR.mp4"
