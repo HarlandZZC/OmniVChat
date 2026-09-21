@@ -75,10 +75,10 @@
   "subcategory": "ER",
   "ability": "ER",
   "turns": "single",
-  "id": "60ec853eefb1438c816940800e75df7d",
+  "id": "0a757dc25b85403baeecb3c76095ecc7",
   "json": "examples/ER.json",
   "clip": "examples/clips/ER.mp4",
-  "size_kb": 313
+  "size_kb": 187
  },
  {
   "subcategory": "MEA-RC-AR",

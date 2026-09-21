@@ -1,8 +1,8 @@
 {
-  "id": "60ec853eefb1438c816940800e75df7d",
+  "id": "0a757dc25b85403baeecb3c76095ecc7",
   "ability": "ER",
   "subcategory": "ER",
-  "video": "media/single_turn/60ec853eefb1438c816940800e75df7d.mp4",
+  "video": "media/single_turn/0a757dc25b85403baeecb3c76095ecc7.mp4",
   "key_points": [
     {
       "tier": 0,
@@ -10,19 +10,19 @@
     },
     {
       "tier": 1,
-      "point": "The response recognizes and responds to the user's excitement (e.g., by offering congratulations, acknowledging her thrill, or matching her positive emotion), rather than merely giving advice in a cold manner."
-    },
-    {
-      "tier": 1,
-      "point": "The response addresses the user's core request—how to prepare for next Thursday's interview—by providing substantive preparation directions or advice."
+      "point": "The response correctly understands the user's core question: whether to continue applying for similar positions or change direction after being rejected in the final interview round."
     },
     {
       "tier": 2,
-      "point": "The response provides specific, actionable preparation suggestions (e.g., company research, technical fundamentals review, behavioral interview questions/STAR method, preparing questions to ask), rather than speaking in generalities."
+      "point": "The response explicitly identifies and addresses the user's disappointment (e.g., by mentioning the sigh, the heaviness in tone, or expressing empathy and reassurance), rather than merely providing cold strategic advice."
     },
     {
       "tier": 2,
-      "point": "The response adopts an enthusiastic and positive tone that matches the user's high-energy excited state, and may further propose follow-up interactions (e.g., mock interviews, diving deeper into a specific area)."
+      "point": "The response provides substantive and differentiated advice on the user's job search direction (e.g., recommending continuing or adjusting course based on different circumstances)."
+    },
+    {
+      "tier": 3,
+      "point": "The response affirms the inherent value of reaching the final interview round and offers specific encouragement and confidence support."
     }
   ],
   "_example_clip": "examples/clips/ER.mp4"

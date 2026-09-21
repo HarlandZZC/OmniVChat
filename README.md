@@ -1,6 +1,6 @@
 # OmniVChat: Synthesizing, Benchmarking, and Training for Native Audio-Visual Dialogue
 
-<div align="center"><a href="https://huggingface.co/datasets/Harland/OmniVChat"><img src="https://img.shields.io/badge/%F0%9F%A4%97_Hugging_Face-Dataset-FFD21E" alt="Hugging Face dataset" style="display:inline-block;margin:0"></a>&nbsp;&nbsp;<a href="https://arxiv.org/abs/2609.21465"><img src="https://img.shields.io/badge/arXiv-2609.21465-B31B1B?logo=arxiv&logoColor=white" alt="arXiv 2609.21465" style="display:inline-block;margin:0"></a></div>
+<div align="center"><a href="https://huggingface.co/datasets/Harland/OmniVChat"><img src="https://img.shields.io/badge/%F0%9F%A4%97_Hugging_Face-Dataset-FFD21E" alt="Hugging Face dataset" style="display:inline-block;margin:0"></a>&nbsp;&nbsp;<a href="https://arxiv.org/abs/2609.21465"><img src="https://img.shields.io/badge/arXiv-2609.21465-B31B1B?logo=arxiv&logoColor=white" alt="arXiv 2609.21465" style="display:inline-block;margin:0"></a>&nbsp;&nbsp;<a href="https://qwen.ai/blog?id=qwen3.8-omni-flash"><img src="https://img.shields.io/badge/Qwen3.8--Omni-Blog-615CED" alt="Qwen3.8-Omni Blog" style="display:inline-block;margin:0"></a></div>
 <div align="center"><img src="assets/title.jpg" width="100%" alt="OmniVChat: Synthesizing, Benchmarking, and Training for Native Audio-Visual Dialogue" style="display:block;margin:0 auto"></div>
 <div align="center"><sup>1</sup> The Chinese University of Hong Kong&emsp;<sup>2</sup> Alibaba Token Hub, Alibaba Group</div>
 <div align="center"><sup>3</sup> Shanghai Jiao Tong University&emsp;<sup>4</sup> Shanghai Innovation Institute&emsp;<sup>5</sup> Zhejiang University</div>
@@ -70,7 +70,7 @@ repository carries the code and the examples, not the media.
 <td align="center" valign="top"><a href="https://huggingface.co/datasets/Harland/OmniVChat/blob/main/examples/clips/MSA-IC-STIC.mp4"><img src="assets/previews/MSA-IC-STIC.gif" width="190" alt="MSA-IC-STIC"></a></td>
 </tr>
 <tr>
-<td align="center" valign="top"><strong>ER</strong><br><code>ER</code><br><sub>Excited about an interview, she asks how to prepare. The reply should share her joy.</sub></td>
+<td align="center" valign="top"><strong>ER</strong><br><code>ER</code><br><sub>Disappointed after a final-round rejection, he asks whether to keep applying or change direction.</sub></td>
 <td align="center" valign="top"><strong>DSLP</strong><br><code>DSLP-VDMC-SVMR</code><br><sub>The camera faces the road, not him. Left or right depends on noticing that.</sub></td>
 <td align="center" valign="top"><strong>MEA</strong><br><code>MEA-RC-MRR</code><br><sub>Turn 7 of 7. She asks the colour of a vase shown earlier; only a past clip has it.</sub></td>
 <td align="center" valign="top"><strong>MSA</strong><br><code>MSA-IC-STIC</code><br><sub>Late-night chat, she asks who it is. It should give its own name, not another product's.</sub></td>
@@ -139,7 +139,7 @@ turn, the one that gets scored.
 | `DSLP-VDMC-SVMR` | DSLP | single | [json](examples/DSLP-VDMC-SVMR.json) | [169 KB](https://huggingface.co/datasets/Harland/OmniVChat/blob/main/examples/clips/DSLP-VDMC-SVMR.mp4) |
 | `DSLP-VTT-UCR` | DSLP | single | [json](examples/DSLP-VTT-UCR.json) | [269 KB](https://huggingface.co/datasets/Harland/OmniVChat/blob/main/examples/clips/DSLP-VTT-UCR.mp4) |
 | `DSLP-VTT-UPC` | DSLP | single | [json](examples/DSLP-VTT-UPC.json) | [248 KB](https://huggingface.co/datasets/Harland/OmniVChat/blob/main/examples/clips/DSLP-VTT-UPC.mp4) |
-| `ER` | ER | single | [json](examples/ER.json) | [313 KB](https://huggingface.co/datasets/Harland/OmniVChat/blob/main/examples/clips/ER.mp4) |
+| `ER` | ER | single | [json](examples/ER.json) | [187 KB](https://huggingface.co/datasets/Harland/OmniVChat/blob/main/examples/clips/ER.mp4) |
 | `MEA-RC-AR` | MEA | single | [json](examples/MEA-RC-AR.json) | [323 KB](https://huggingface.co/datasets/Harland/OmniVChat/blob/main/examples/clips/MEA-RC-AR.mp4) |
 | `MEA-RC-DR` | MEA | single | [json](examples/MEA-RC-DR.json) | [135 KB](https://huggingface.co/datasets/Harland/OmniVChat/blob/main/examples/clips/MEA-RC-DR.mp4) |
 | `MEA-RC-MRR` | MEA | multi | [json](examples/MEA-RC-MRR.json) | [118 KB](https://huggingface.co/datasets/Harland/OmniVChat/blob/main/examples/clips/MEA-RC-MRR.mp4) |
@@ -632,7 +632,13 @@ license and permissions, must not use the dataset or any included image in comme
 services, or other profit-making activities, and are solely responsible for complying with all
 applicable laws and regulations concerning personal information protection and portrait rights.
 
-## 6. Citation
+## 6. Acknowledgements
+
+This work was supported by Alibaba Research Intern Program. We would like to thank the Qwen
+Team at Alibaba Token Hub (ATH), Alibaba Group, for providing the computational resources and
+foundation models (Qwen) used in this research.
+
+## 7. Citation
 
 ```bibtex
 @misc{he2026omnivchat,
