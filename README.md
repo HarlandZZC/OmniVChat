@@ -1,6 +1,6 @@
 # OmniVChat: Synthesizing, Benchmarking, and Training for Native Audio-Visual Dialogue
 
-<div align="center"><a href="https://huggingface.co/datasets/Harland/OmniVChat"><img src="https://img.shields.io/badge/%F0%9F%A4%97_Hugging_Face-Dataset-FFD21E" alt="Hugging Face dataset" style="display:inline-block;margin:0"></a>&nbsp;&nbsp;<img src="https://img.shields.io/badge/arXiv-Paper_Coming_Soon-B31B1B?logo=arxiv&logoColor=white" alt="arXiv paper coming soon" style="display:inline-block;margin:0"></div>
+<div align="center"><a href="https://huggingface.co/datasets/Harland/OmniVChat"><img src="https://img.shields.io/badge/%F0%9F%A4%97_Hugging_Face-Dataset-FFD21E" alt="Hugging Face dataset" style="display:inline-block;margin:0"></a>&nbsp;&nbsp;<a href="https://arxiv.org/abs/2609.21465"><img src="https://img.shields.io/badge/arXiv-2609.21465-B31B1B?logo=arxiv&logoColor=white" alt="arXiv 2609.21465" style="display:inline-block;margin:0"></a></div>
 <div align="center"><img src="assets/title.jpg" width="100%" alt="OmniVChat: Synthesizing, Benchmarking, and Training for Native Audio-Visual Dialogue" style="display:block;margin:0 auto"></div>
 <div align="center"><sup>1</sup> The Chinese University of Hong Kong&emsp;<sup>2</sup> Alibaba Token Hub, Alibaba Group</div>
 <div align="center"><sup>3</sup> Shanghai Jiao Tong University&emsp;<sup>4</sup> Shanghai Innovation Institute&emsp;<sup>5</sup> Zhejiang University</div>
@@ -635,9 +635,13 @@ applicable laws and regulations concerning personal information protection and p
 ## 6. Citation
 
 ```bibtex
-@misc{omnivchat,
-  title  = {OmniVChat: Synthesizing, Benchmarking, and Training for Native Audio-Visual Dialogue},
-  author = {He, Haolin and others},
-  year   = {}
+@misc{he2026omnivchat,
+  title         = {OmniVChat: Synthesizing, Benchmarking, and Training for Native Audio-Visual Dialogue},
+  author        = {Haolin He and Yunfei Chu and Qi Chen and Wen Huang and Yuan Feng and Muzhi Zhu and Zheqi Dai and Haoning Xu and Dongchao Yang and Chunyat Wu and Zining Liang and Zhengxi Liu and Xiquan Li and Xie Chen and Xize Cheng and Qize Yang and Jin Xu and Qiuqiang Kong},
+  year          = {2026},
+  eprint        = {2609.21465},
+  archivePrefix = {arXiv},
+  primaryClass  = {eess.AS},
+  url           = {https://arxiv.org/abs/2609.21465}
 }
 ```
