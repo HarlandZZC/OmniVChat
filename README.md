@@ -6,6 +6,19 @@
 <div align="center"><sup>3</sup> Shanghai Jiao Tong University&emsp;<sup>4</sup> Shanghai Innovation Institute&emsp;<sup>5</sup> Zhejiang University</div>
 <br>
 
+## News
+
+- **2026-11-17 — Multi-turn reference replies.** Added all **690 intermediate reference
+  replies** across the 250 multi-turn instances. We recommend including these replies with
+  the earlier user clips to construct the full dialogue context, then passing that context
+  and the final user clip to the model. **Generate and evaluate only the final reply.**
+  See the [data format and context example](#242-multi_turnjsonl).
+- **2026-11-17 — OmniVChat-Studio skills.** Released two English-language skills:
+  [build and maintain OmniVChat-Studio](skills/omnivchat-studio-build/SKILL.md), and
+  [add or extend subcategories](skills/omnivchat-studio-add-subcategory/SKILL.md).
+  They cover framework implementation and maintenance, capability design, configuration,
+  templates, and validation. See [Studio skills](#210-studio-skills).
+
 **OmniVChat** (Omni Video Chat) is the task of native audio-visual dialogue: an omni model
 directly and simultaneously receives audio and video from a user and returns text. The user's
 query is inside the audio and video. There is no separate text question, no external
@@ -38,19 +51,6 @@ What differs is what is added on top and how a judge failure is handled. See
 > answer briefly. Every other subcategory has one rubric. Pick one for MSA-PLA and say which —
 > a score is not comparable across the two. Details in
 > [MSA-PLA: two rubrics](#25-msa-pla-two-rubrics).
-
-## News
-
-- **2026-11-17 — Multi-turn reference replies.** Added all **690 intermediate reference
-  replies** across the 250 multi-turn instances. We recommend including these replies with
-  the earlier user clips to construct the full dialogue context, then passing that context
-  and the final user clip to the model. **Generate and evaluate only the final reply.**
-  See the [data format and context example](#242-multi_turnjsonl).
-- **2026-11-17 — OmniVChat-Studio skills.** Released two English-language skills:
-  [build and maintain OmniVChat-Studio](skills/omnivchat-studio-build/SKILL.md), and
-  [add or extend subcategories](skills/omnivchat-studio-add-subcategory/SKILL.md).
-  They cover framework implementation and maintenance, capability design, configuration,
-  templates, and validation. See [Studio skills](#210-studio-skills).
 
 ## 1. What a dialogue looks like
 
