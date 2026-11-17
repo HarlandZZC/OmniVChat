@@ -1,0 +1,4 @@
+interface:
+  display_name: "OmniVChat-Studio Subcategories"
+  short_description: "Design and validate new dialogue subcategories"
+  default_prompt: "Use $omnivchat-studio-add-subcategory to add an OmniVChat-Studio subcategory with a capability definition, configuration, templates, and targeted validation."

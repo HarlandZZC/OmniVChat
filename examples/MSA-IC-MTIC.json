@@ -6,7 +6,8 @@
   "turns": [
     {
       "round": 1,
-      "video": "media/multi_turn/05195b2f319f481fb927744b8c492781/round_1.mp4"
+      "video": "media/multi_turn/05195b2f319f481fb927744b8c492781/round_1.mp4",
+      "reference_reply": "简单说，单控就是一个遥控器只管一套遮阳帘，得一个个操作；群控是通过中控把多套遮阳帘统一管理，可以一键全开全收，也能分组或定时。你家有两套的话，群控确实会方便不少。"
     },
     {
       "round": 2,

@@ -1,0 +1,4 @@
+interface:
+  display_name: "OmniVChat-Studio Framework"
+  short_description: "Build and maintain audio-visual dialogue synthesis"
+  default_prompt: "Use $omnivchat-studio-build to build or maintain OmniVChat-Studio and validate the affected framework behavior."

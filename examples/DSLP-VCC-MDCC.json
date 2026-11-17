@@ -6,7 +6,8 @@
   "turns": [
     {
       "round": 1,
-      "video": "media/multi_turn/0c22a40c891b4e1983dee81eb9919249/round_1.mp4"
+      "video": "media/multi_turn/0c22a40c891b4e1983dee81eb9919249/round_1.mp4",
+      "reference_reply": "哈哈这个问题好有意思！答案是不会哦——就算全世界几十亿人一起跳，我们的总重量跟地球相比简直微乎其微，产生的那点力立马就被地球巨大的质量抵消掉了，几乎不会有任何能测出来的位移。你还想到什么别的奇怪念头没？"
     },
     {
       "round": 2,

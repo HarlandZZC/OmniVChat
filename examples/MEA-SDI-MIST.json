@@ -6,11 +6,13 @@
   "turns": [
     {
       "round": 1,
-      "video": "media/multi_turn/01820b5ad48c46cfafbc51db8475a459/round_1.mp4"
+      "video": "media/multi_turn/01820b5ad48c46cfafbc51db8475a459/round_1.mp4",
+      "reference_reply": "For an accurate Arthropleura reconstruction, emphasize the segmented exoskeleton with a broad flattened dorsal shield, paired legs on each segment, and its impressive scale—roughly two to two-and-a-half meters long. Don't forget the small head with short antennae; using a modern millipede's anatomy as a reference works really well."
     },
     {
       "round": 2,
-      "video": "media/multi_turn/01820b5ad48c46cfafbc51db8475a459/round_2.mp4"
+      "video": "media/multi_turn/01820b5ad48c46cfafbc51db8475a459/round_2.mp4",
+      "reference_reply": "Since coloring can't be confirmed from fossils, a reasonable approach is to base it on modern relatives—earthy tones like brown, deep green, or dark reddish hues work well for something living in damp forest floors. You can also give the chitinous exoskeleton a subtle waxy sheen to catch light on the segments. Just remember it's an informed guess, not certainty—feel free to lean into your artistic interpretation."
     },
     {
       "round": 3,

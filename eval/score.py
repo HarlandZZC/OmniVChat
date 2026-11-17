@@ -67,7 +67,11 @@ Usage
     export JUDGE_API_KEY=...
     export JUDGE_MODEL=<the judge model served there>
 
-    # replies: JSONL with {"id": ..., "response": ...} per line, any order
+    # replies: JSONL with {"id": ..., "response": ...} per line, any order.
+    # For multi-turn instances, response is ONLY the generated final-turn reply.
+    # Build its input from earlier clips and their fixed reference_reply values
+    # followed by the final user clip; eval/multi_turn.py provides build_messages.
+    # Intermediate references are context, never predictions to score.
     python3 score.py --data ../data/single_turn.jsonl --replies replies.jsonl
     python3 score.py --data ../data/multi_turn.jsonl  --replies replies.jsonl
 
@@ -212,7 +216,8 @@ def main() -> int:
     ap = argparse.ArgumentParser(description=__doc__,
                                  formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("--data", required=True, help="data/single_turn.jsonl or data/multi_turn.jsonl")
-    ap.add_argument("--replies", required=True, help='JSONL of {"id","response"}')
+    ap.add_argument("--replies", required=True,
+                    help='JSONL of {"id","response"}; multi-turn: final reply only')
     ap.add_argument("--rubric", default="key_points",
                     help="rubric field to score against (key_points | key_points_embodied)")
     ap.add_argument("--judge-model", default=core.JUDGE_MODEL)

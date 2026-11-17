@@ -12,7 +12,8 @@ query is inside the audio and video. There is no separate text question, no exte
 captioning, no ASR transcript.
 
 This is the code-only OmniVChat repository. It contains the evaluation and reward code,
-examples, and documentation, while the full dataset annotations and media are distributed
+examples, documentation, and two English-language OmniVChat-Studio skills, while the
+full dataset annotations and media are distributed
 separately through the complete repository linked below.
 
 The release contains two components from the paper. They grade a reply against the same rubric,
@@ -38,10 +39,24 @@ What differs is what is added on top and how a judge failure is handled. See
 > a score is not comparable across the two. Details in
 > [MSA-PLA: two rubrics](#25-msa-pla-two-rubrics).
 
+## News
+
+- **2026-11-17 — Multi-turn reference replies.** Added all **690 intermediate reference
+  replies** across the 250 multi-turn instances. We recommend including these replies with
+  the earlier user clips to construct the full dialogue context, then passing that context
+  and the final user clip to the model. **Generate and evaluate only the final reply.**
+  See the [data format and context example](#242-multi_turnjsonl).
+- **2026-11-17 — OmniVChat-Studio skills.** Released two English-language skills:
+  [build and maintain OmniVChat-Studio](skills/omnivchat-studio-build/SKILL.md), and
+  [add or extend subcategories](skills/omnivchat-studio-add-subcategory/SKILL.md).
+  They cover framework implementation and maintenance, capability design, configuration,
+  templates, and validation. See [Studio skills](#210-studio-skills).
+
 ## 1. What a dialogue looks like
 
 Eight dialogues, covering all five abilities. Each clip is the user's side: the model receives
-exactly this audio and video, and returns text.
+its audio and video, and returns text. For a multi-turn instance, the final clip is preceded
+by all earlier user clips and their provided reference replies.
 
 **The previews below are downsampled, and are not what a model sees.** They are cut down hard so
 this page loads at all: 260 px wide, 10 fps, 64 colours, silent, and only the first 3.2 seconds.
@@ -78,8 +93,10 @@ repository carries the code and the examples, not the media.
 </table>
 
 `MEA-RC-MRR` is multi-turn, so its preview is the final turn — the vase it asks about was shown
-in an earlier one, which is the whole point of that subcategory. All 17 subcategories have a clip
-in [`examples/clips/`](examples/clips), small enough to browse without downloading the 28 GB.
+in an earlier one. Evaluation uses the complete history, including the intermediate reference
+replies, rather than the preview alone. All 17 subcategories have a clip
+in [`examples/clips/` on Hugging Face](https://huggingface.co/datasets/Harland/OmniVChat/tree/main/examples/clips),
+small enough to browse without downloading the 28 GB.
 
 **What a rubric looks like.** For the [`DSLP-VDMC-SVMR`](examples/DSLP-VDMC-SVMR.json)
 clip above, its `key_points` array is shown below. Scoring is tier-gated: tier 0 is a hard
@@ -103,7 +120,7 @@ This repository holds the code and the documentation. The dialogues and their ru
 Hugging Face, because the media is about 28 GB.
 
 ```bash
-huggingface-cli download Harland/OmniVChat --repo-type dataset --local-dir data
+hf download Harland/OmniVChat --type dataset --local-dir data
 ```
 
 That gives you the layout the rest of this README describes:
@@ -115,8 +132,9 @@ data/media/single_turn/<id>.mp4
 data/media/multi_turn/<id>/round_<n>.mp4
 ```
 
-Media paths inside the JSONL are relative to the dataset root, so run the scorer from there,
-or pass absolute paths. Every command below uses `$DATA` for that root:
+Media paths inside the JSONL are relative to the dataset root. Resolve them against that
+root when preparing model inputs; the scorer reads the annotations and generated replies.
+Every command below uses `$DATA` for that root:
 
 ```bash
 export DATA=./data
@@ -127,7 +145,8 @@ export DATA=./data
 [`examples/`](examples) holds one instance from each of the 17 subcategories: the data row
 exactly as it appears in the dataset, plus a small re-encode of its clip so the repository is
 browsable without the 28 GB download. For a multi-turn subcategory the clip is the **final**
-turn, the one that gets scored.
+turn, the one that gets scored. Its JSON includes every turn's media path and the reference
+reply for each earlier turn; use the complete history for evaluation.
 
 | Subcategory | Definition | Ability | Turns | Data | Clip |
 |---|---|---|---|---|---|
@@ -157,6 +176,7 @@ not part of the dataset.
 | | |
 |---|---|
 | 2,800 instances | 2,550 single-turn, 250 multi-turn |
+| Multi-turn history | 690 intermediate reference replies; only the final response is generated and scored |
 | 5 ability categories | DSLP 900, MEA 900, MSA 450, AH 400, ER 150 |
 | 17 subcategories | 22 scenario domains |
 | 13,475 rubric criteria | tier 0: 2,800 · tier 1: 3,617 · tier 2: 5,051 · tier 3: 2,007 |
@@ -188,11 +208,14 @@ In this repository:
 
 ```
 eval/score.py                 evaluation: rubric, format, style, length, efficiency
+eval/multi_turn.py            construct fixed reference history for final-turn inference
 reward/reward.py              the reward itself, shared by both paths
 reward/trainer_adapter.py     optional: wires it into a GSPO trainer
 reward/prompts/               the judge prompts, used by BOTH paths
-examples/                     one instance per subcategory, with a small clip
+examples/                     one instance per subcategory; clips are on Hugging Face
 assets/                       figures used by this README
+skills/                       build/maintain Studio and add subcategories
+scripts/restore_multi_turn_replies.py  rebuild reference history from original annotations
 ```
 
 In the dataset, from Hugging Face:
@@ -244,19 +267,49 @@ id            str
 ability       str
 subcategory   str
 num_turns     int
-turns         [{round: int, video: str, audio: str}]
+turns         [{round: int, video: str, reference_reply?: str}]
 key_points    [{tier: int, point: str}]   # the FINAL turn's rubric
 ```
 
-Only the **final** turn is scored, and `key_points` is that turn's rubric. The earlier turns
-are the dialogue's history: feed their clips in order, then score the reply to the last one.
+Every turn before the last contains a nonempty `reference_reply`: the original, fixed
+assistant reply for that turn, preserved in its original language. All 250 instances include
+their complete intermediate replies, 690 in total. The final turn omits `reference_reply`;
+some dataset loaders represent that missing field as `null`. Each mp4 includes the user's audio.
 
-The assistant's own replies from the earlier turns are **not** included in this release. The
-paper's protocol gives every model the same earlier clips *and* the same reference replies as
-history, so that any difference in the score comes from the final reply alone. To reproduce
-that protocol you have to supply those replies yourself, or let each model condition on its
-own earlier replies — a different setting, and one whose scores are not strictly comparable
-with the paper.
+We recommend constructing the complete context in this order:
+
+```text
+user clip 1 -> assistant reference_reply 1 -> ... -> user clip N
+```
+
+Pass the complete context to the model, **generate one reply to the final user turn**, and
+score only that reply against the top-level `key_points`. Use the provided intermediate
+replies for every model rather than generating replacements. Keep `key_points` out of model
+inputs. Generating a model's own earlier replies changes the evaluation setting.
+
+[`eval/multi_turn.py`](eval/multi_turn.py) provides `build_messages`, which validates complete
+history and returns alternating user/assistant messages ending with the final user turn.
+This adapter example encodes the clips in your model's native input format:
+
+```python
+from pathlib import Path
+from eval.multi_turn import build_messages
+
+
+def predict_final(row, dataset_root, encode_audio_video, generate):
+    dataset_root = Path(dataset_root)
+    messages = build_messages(
+        row,
+        lambda video: encode_audio_video(dataset_root / video),
+    )
+    return {"id": row["id"], "response": generate(messages)}
+```
+
+Supply your model adapter's `encode_audio_video` and `generate` functions. The encoder must
+preserve both audio and video; `generate` receives the entire message list in one call.
+Use the downloaded repository root (`$DATA` above) as `dataset_root`, and save each returned
+prediction as one line of `replies.jsonl`. The scoring script consumes these final predictions;
+it does not run model inference.
 
 ### 2.5 MSA-PLA: two rubrics
 
@@ -386,8 +439,9 @@ agree and to name the right board and shelf. A reply that passes one fails the o
 
 #### 2.6.3 A multi-turn instance (DSLP-VCC-MDCC)
 
-2 turns. Feed the clips in order; only the last turn's reply is scored,
-and `key_points` is that turn's rubric. Here the user's connection appears to drop, and
+2 turns. Feed the first clip, its `reference_reply`, and then the second clip as one context.
+Generate and score only the last turn's reply; `key_points` is that turn's rubric.
+Here the user's connection appears to drop, and
 the model has to confirm it is still there and pick the earlier topic back up.
 
 ```json
@@ -399,7 +453,8 @@ the model has to confirm it is still there and pick the earlier topic back up.
   "turns": [
     {
       "round": 1,
-      "video": "media/multi_turn/0c22a40c891b4e1983dee81eb9919249/round_1.mp4"
+      "video": "media/multi_turn/0c22a40c891b4e1983dee81eb9919249/round_1.mp4",
+      "reference_reply": "哈哈这个问题好有意思！答案是不会哦——就算全世界几十亿人一起跳，我们的总重量跟地球相比简直微乎其微，产生的那点力立马就被地球巨大的质量抵消掉了，几乎不会有任何能测出来的位移。你还想到什么别的奇怪念头没？"
     },
     {
       "round": 2,
@@ -458,9 +513,14 @@ export JUDGE_API_KEY=...
 export JUDGE_MODEL=<the judge model served there>
 
 python3 eval/score.py --data $DATA/data/single_turn.jsonl --replies replies.jsonl
+
+# For multi-turn, replies.jsonl contains only each instance's generated final reply.
+python3 eval/score.py --data $DATA/data/multi_turn.jsonl --replies replies.jsonl
 ```
 
 `replies.jsonl` is one `{"id": ..., "response": ...}` per line, in any order.
+For multi-turn data, submit exactly one final response per instance ID. Intermediate
+`reference_reply` values are input context and are never submitted as predictions or scored.
 
 #### 2.7.1 What the scorer reports
 
@@ -549,6 +609,20 @@ deterministic Validator checks scripts against the configured rules.
 
 *OmniVChat-Studio, with the single-turn subsystem (left) and the multi-turn subsystem (right).
 Each module carries the colour of the agent responsible for it.*
+
+### 2.10 Studio skills
+
+Two English-language skills are available in [`skills/`](skills):
+
+| Skill | Use |
+|---|---|
+| [omnivchat-studio-build](skills/omnivchat-studio-build/SKILL.md) | Create, maintain, or refactor the Studio framework, its four agent roles, state transitions, media interfaces, and recovery behavior. |
+| [omnivchat-studio-add-subcategory](skills/omnivchat-studio-add-subcategory/SKILL.md) | Add or extend a single-turn or multi-turn subcategory, including capability boundaries, diversity configuration, templates, rubrics, and validation. |
+
+Each folder includes a `SKILL.md` entry point, supporting references, and agent metadata.
+Load the appropriate skill in your coding agent with the target Studio implementation as
+its workspace. The build skill also covers creating a new implementation. These are
+development instructions; model and media backends are supplied by the operator.
 
 ## 3. OmniVChat-RL
 

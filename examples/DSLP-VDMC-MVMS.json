@@ -6,11 +6,13 @@
   "turns": [
     {
       "round": 1,
-      "video": "media/multi_turn/0140e5f842264d5f99dd78ddbe709c84/round_1.mp4"
+      "video": "media/multi_turn/0140e5f842264d5f99dd78ddbe709c84/round_1.mp4",
+      "reference_reply": "建议先从测试板工位入手。测试板使用频率高，分类清晰后找东西效率会明显提升。你可以按板子的颜色或用途贴标签，然后用垂直收纳架竖放，这样一目了然。办公杂物可以最后统一归类，优先级低一些。"
     },
     {
       "round": 2,
-      "video": "media/multi_turn/0140e5f842264d5f99dd78ddbe709c84/round_2.mp4"
+      "video": "media/multi_turn/0140e5f842264d5f99dd78ddbe709c84/round_2.mp4",
+      "reference_reply": "你左手边那块是亮绿色的。按颜色贴标签是个好办法，绿色和蓝色一眼就能区分，后面找板子会快很多。"
     },
     {
       "round": 3,

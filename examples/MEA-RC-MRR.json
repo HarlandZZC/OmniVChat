@@ -6,27 +6,33 @@
   "turns": [
     {
       "round": 1,
-      "video": "media/multi_turn/006392af9bcc4aa7bd54094e6473789a/round_1.mp4"
+      "video": "media/multi_turn/006392af9bcc4aa7bd54094e6473789a/round_1.mp4",
+      "reference_reply": "Oh, a whole free weekend sounds lovely! If you're after something low-key, you could curl up with a cozy movie, try a little hands-on craft project, or just take a slow walk somewhere nice. What kind of vibe are you feeling — stay in or head out?"
     },
     {
       "round": 2,
-      "video": "media/multi_turn/006392af9bcc4aa7bd54094e6473789a/round_2.mp4"
+      "video": "media/multi_turn/006392af9bcc4aa7bd54094e6473789a/round_2.mp4",
+      "reference_reply": "Yeah, that style is really popular right now! It's all about pairing minimalist line work with bold, saturated color palettes — a lot of indie animation studios have been leaning into it hard. It gives everything this super graphic, almost poster-like feel. What show is it?"
     },
     {
       "round": 3,
-      "video": "media/multi_turn/006392af9bcc4aa7bd54094e6473789a/round_3.mp4"
+      "video": "media/multi_turn/006392af9bcc4aa7bd54094e6473789a/round_3.mp4",
+      "reference_reply": "It's a mix of stuff, honestly — a lot of breath control and diaphragm work, plus vocal warm-ups to safely stretch their range without straining. They also do tons of character study, figuring out how a role would breathe, what their posture is, where the voice sits in the body. Do you know who the actor is?"
     },
     {
       "round": 4,
-      "video": "media/multi_turn/006392af9bcc4aa7bd54094e6473789a/round_4.mp4"
+      "video": "media/multi_turn/006392af9bcc4aa7bd54094e6473789a/round_4.mp4",
+      "reference_reply": "Yeah, from what I can see it looks like it's in pretty good shape — no visible cracks or chips. Should be totally fine to keep using."
     },
     {
       "round": 5,
-      "video": "media/multi_turn/006392af9bcc4aa7bd54094e6473789a/round_5.mp4"
+      "video": "media/multi_turn/006392af9bcc4aa7bd54094e6473789a/round_5.mp4",
+      "reference_reply": "Yeah, that pop can definitely startle you! It usually happens when unburned fuel ignites in the wrong place — often from ignition timing being off, a bad air-to-fuel mixture, or a leaky exhaust valve. If it keeps happening, your friend should probably get the ignition system and spark plugs checked out."
     },
     {
       "round": 6,
-      "video": "media/multi_turn/006392af9bcc4aa7bd54094e6473789a/round_6.mp4"
+      "video": "media/multi_turn/006392af9bcc4aa7bd54094e6473789a/round_6.mp4",
+      "reference_reply": "Fun choice! A couple of things — make sure you dissolve the gelatin fully before mixing it in, and add your sugar while the coconut milk is still warm so it blends smoothly. Then just let it chill in the fridge for at least three to four hours so it sets properly. Pretty foolproof once you nail the ratios!"
     },
     {
       "round": 7,
